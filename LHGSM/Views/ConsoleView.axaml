@@ -1,0 +1,24 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:LHGSM.ViewModels"
+             x:Class="LHGSM.Views.ConsoleView">
+
+    <Design.DataContext>
+        <viewmodels:ConsoleViewModel />
+    </Design.DataContext>
+
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <TextBox
+                Text="{Binding ConsoleText}"
+                AcceptsReturn="True"
+                IsReadOnly="True"
+                FontFamily="Consolas"
+                FontSize="14"
+                Background="#111"
+                Foreground="#0f0"
+                BorderThickness="0"
+                />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

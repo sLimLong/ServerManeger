@@ -1,0 +1,27 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:LHGSM.ViewModels"
+             mc:Ignorable="d"
+             x:Class="LHGSM.Views.SettingsView"
+             x:DataType="vm:SettingsViewModel">
+
+    <StackPanel Margin="20" Spacing="15">
+
+        <TextBlock Text="Server Folder" FontSize="18" />
+
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <TextBox Width="400" Text="{Binding ServerFolder}" />
+            <Button Content="Browse" Command="{Binding BrowseFolderCommand}" />
+        </StackPanel>
+
+        <Separator/>
+
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <CheckBox IsChecked="{Binding AutoRestart}" />
+            <TextBlock Text="Auto-restart server if it stops" VerticalAlignment="Center"/>
+        </StackPanel>
+
+    </StackPanel>
+</UserControl>

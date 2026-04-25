@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:LHGSM.ViewModels"
+        xmlns:views="clr-namespace:LHGSM.Views"
+        x:Class="LHGSM.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Width="1400" 
+        Height="900"
+        Title="LHGSM - 7 Days to Die Server Manager">
+
+    <TabControl>
+        <TabItem Header="Dashboard">
+            <views:DashboardView DataContext="{Binding DashboardVM}" />
+        </TabItem>
+        
+        <TabItem Header="Console">
+            <views:ConsoleView DataContext="{Binding ConsoleVM}" />
+        </TabItem>
+        
+        <TabItem Header="Players">
+            <views:PlayersView DataContext="{Binding PlayersVM}" />
+        </TabItem>
+        
+        <TabItem Header="Config">
+            <views:ConfigView DataContext="{Binding ConfigVM}" />
+        </TabItem>
+        
+        <TabItem Header="Mods">
+            <views:ModsView DataContext="{Binding ModsVM}" />
+        </TabItem>
+        
+        <TabItem Header="Backups">
+            <views:BackupsView DataContext="{Binding BackupsVM}" />
+        </TabItem>
+        
+        <TabItem Header="Logs">
+            <views:LogsView DataContext="{Binding LogsVM}" />
+        </TabItem>
+        
+        <TabItem Header="Settings">
+            <!-- DataContext уже привязан к SettingsVM -->
+            <views:SettingsView DataContext="{Binding SettingsVM}" />
+        </TabItem>
+    </TabControl>
+</Window>

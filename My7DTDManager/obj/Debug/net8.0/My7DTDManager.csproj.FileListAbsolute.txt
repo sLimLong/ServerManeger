@@ -1,0 +1,7 @@
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\My7DTDManager.csproj.AssemblyReference.cache
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\Avalonia\resources
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\My7DTDManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\My7DTDManager.AssemblyInfoInputs.cache
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\My7DTDManager.AssemblyInfo.cs
+C:\Users\sliml\Документы\ServerManeger\My7DTDManager\obj\Debug\net8.0\My7DTDManager.csproj.CoreCompileInputs.cache

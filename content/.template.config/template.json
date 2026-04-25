@@ -1,0 +1,9 @@
+{
+  "author": "sLimLong",
+  "classifications": [ "Avalonia", "7DTD", "Manager" ],
+  "name": "LHG Server Manager",
+  "identity": "LHG.ServerManager.Template",
+  "shortName": "lhgserver",
+  "sourceName": "LHGServerManager",
+  "preferNameDirectory": true
+}

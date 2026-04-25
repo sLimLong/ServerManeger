@@ -26,9 +26,6 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/sliml/Документы/ServerManeger/LHGServerManager/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/sliml/Документы/ServerManeger/LHGServerManager/MainWindow.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
 [C:/Users/sliml/Документы/ServerManeger/LHGServerManager/Views/BackupsView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

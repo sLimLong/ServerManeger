@@ -35,8 +35,9 @@
         </TabItem>
 
         <TabItem Header="Settings">
-            <views:SettingsView />
+            <views:SettingsView DataContext="{Binding SettingsVM}" />
         </TabItem>
+
     </TabControl>
 
 </Window>

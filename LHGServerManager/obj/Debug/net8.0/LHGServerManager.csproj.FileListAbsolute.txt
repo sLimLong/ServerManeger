@@ -98,5 +98,3 @@ C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.
 C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.0\LHGServerManager.pdb
 C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.0\LHGServerManager.genruntimeconfig.cache
 C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.0\ref\LHGServerManager.dll
-C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.0\LHGServerManager.csproj.Fody.CopyLocal.cache
-C:\Users\sliml\Документы\ServerManeger\LHGServerManager\obj\Debug\net8.0\LHGServerManager.csproj.Fody.RuntimeCopyLocal.cache

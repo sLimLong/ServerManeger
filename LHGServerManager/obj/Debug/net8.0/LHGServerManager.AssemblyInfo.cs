@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LHGServerManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f000c755dca6d522fd98c71c4e8a6c403a04061c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+935924360c3603780070339603606f800efb7ba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("LHGServerManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LHGServerManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

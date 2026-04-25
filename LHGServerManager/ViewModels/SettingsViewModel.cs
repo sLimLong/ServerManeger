@@ -3,6 +3,7 @@ using System.Reactive;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Platform.Storage;  // ← ДОБАВИТЬ ЭТУ СТРОКУ
 using LHGServerManager.Services;
 using System.IO;
 
@@ -50,8 +51,12 @@ public class SettingsViewModel : ViewModelBase
             if (mainWindow == null)
                 return;
 
-            // Avalonia 11 — без опций
-            var folders = await mainWindow.StorageProvider.OpenFolderPickerAsync();
+            var folders = await mainWindow.StorageProvider.OpenFolderPickerAsync(
+                new FolderPickerOpenOptions
+                {
+                    Title = "Select server folder",
+                    AllowMultiple = false
+                });
 
             if (folders != null && folders.Count > 0)
             {
